@@ -1,0 +1,119 @@
+/* Elements */
+a{
+  transition: all 0.2s;
+}
+a:hover, a:focus{
+  text-decoration: none;
+}
+body{font-family: Vollkorn;}
+
+/* ======= navbar ======= */
+.nav-img{
+  color: #2bace2 !important;
+  font-family: Oswald;
+  font-weight: bold;
+}
+.nav-img img{
+  display: contents;
+  margin-right: 5px;
+}
+.site-header{height: 52px;}
+
+/* ======= footer ======= */
+.site-footer{height: 60px;}
+
+/* ======= index ======= */
+/* Classes & IDs */
+.site-body{min-height: calc(100vh - 112px);}
+.site-header{
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+/* Feature section */
+.section-header{
+  text-align: center;
+  font-weight: bold;
+}
+.section-header p{
+  color: #999;
+  font-weight: normal;
+  font-size: 18px;
+}
+.feature-item, .review-section, .counter-section{
+  padding: 15px;
+  text-align: center;
+}
+.feature-item span{
+  font-size: 500%;
+  color: #005588;
+  transition: all 0.2s;
+}
+.feature-item span:hover{
+  transform: translateY(-10px);
+}
+
+/* Counter section */
+.counter-section h1{
+  font-size: 500%;
+  font-weight: bold;
+  font-family: Oswald;
+  transition: all 0.2s;
+}
+.counter-section h1:hover{
+  transform: scale(1.2);
+  color: #005588;
+}
+.counter-section h5{
+  color: #999;
+}
+
+/* Review section */
+.review-section{
+  transition: all 0.2s;
+}
+.review-section:hover{
+  transform: translateY(-10px);
+}
+
+/* Footer section */
+.site-footer{
+  background-color: #ccc;
+  padding: 20px;
+}
+
+/* ======= info ======= */
+.info-row{
+  margin: 50px 0px;
+}
+
+/* ======= profile ======= */
+.profile-body{
+  padding: 50px 0px;
+  color: #fff;
+  background-image: url("../images/profile_back.jpg");
+}
+.profile-tabs li a{color: #fff;}
+.profile-tabs li a:hover, .profile-tabs li a:focus{background-color: #808080;}
+.booking-container h3, .booking-container p{
+  font-family: Oswald;
+  text-align: center;
+}
+.booking-container table tbody{font-family: Oswald;}
+
+/* ======= login ======= */
+.login-row{margin: 50px 0px;}
+.login-text{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ======= signup ======= */
+.signup-row{margin: 50px 0px;}
+.signup-text{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.signup-fname{padding-left: 0px;}
+.signup-mname{padding: 0px;}
+.signup-lname{padding-right: 0px;}
